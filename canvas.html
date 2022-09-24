@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="centered">
+	<h1>Tic-Tac-Toe!</h1>
+	<hgroup class="details">
+		<h2>Game starts by tapping on any box!</h2>
+		<h2><strong>Player One</strong> starts as <strong>X</strong> and <strong>Player Two</strong> starts as <strong>O</strong></h2>
+	</hgroup>
+	<div class="game" name="rowOne">
+		<button type="button" class="XorO winConditionOne winConditionFour winConditionSeven" id="boxOne"></button>
+		<button type="button" class="XorO winConditionOne winConditionFive" id="boxTwo"></button>
+		<button type="button" class="XorO winConditionOne winConditionSix winConditionEight" id="boxThree"></button>
+	</div>
+	<div class="game" name="rowTwo">
+		<button type="button" class="XorO winConditionTwo winConditionFour" id="boxFour"></button>
+		<button type="button" class="XorO winConditionTwo winConditionFive winConditionSeven winConditionEight" id="boxFive"></button>
+		<button type="button" class="XorO winConditionTwo winConditionSix" id="boxSix"></button>
+	</div>
+	<div class="game" name="rowThree">
+		<button type="button" class="XorO winConditionThree winConditionFour winConditionEight" id="boxSeven"></button>
+		<button type="button" class="XorO winConditionThree winConditionFive" id="boxEight"></button>
+		<button type="button" class="XorO winConditionThree winConditionSix winConditionSeven" id="boxNine"></button>
+	</div>
+
+	</div>
+	<button type="button" id="reset" name="reset">Reset</button>
+	</div>
+	<div>
+		<h3 id="End Match Text"></h3>
+	</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
